@@ -12,6 +12,7 @@
     --teal: #20c997;
     --cyan: #17a2b8;
     --white: #fff;
+    --hero: #fffafa;
     --gray: #6c757d;
     --gray-dark: #343a40;
     --primary: #007bff;
@@ -51,16 +52,35 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
-    color: var(--dark);
+    color: #212529;
     text-align: left;
     background-color: var(--light);
+}a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+
+
+img{
+    border-style: none;
+    width: 100%;
+    height: 100%;
 }
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 /* ======= MAIN ======= */
 .hero-container{
-    background-image: url("../Images/hero-bg.svg");
+    /* background-image: url("../Images/img/hero-bg.svg.URL"); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color: var(--hero);
+    height: auto;
 }
 
 .center-image{
@@ -68,4 +88,81 @@ margin: auto;
 display: flex;
 padding-top: 69px;
 margin-bottom: 69px;
+align-items: center;
+justify-content: center;
 }
+
+.logo-img{
+    display: block;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    width: 10rem;
+
+}
+
+.hero{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 36px;
+    color: #514949;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.btn-div {
+    margin-bottom: 50px;
+    margin-top: 92px;
+  }
+
+  .my-btn{
+    border: none;
+    outline: none;
+    padding: 1.5rem 3rem;
+    border-color: none;
+    cursor: pointer;
+  }
+
+  .btn-red{
+    background-color: #E7332B;
+    color: var(--light);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn-red:hover {
+    border: 1px solid #E7332B;
+    background-color: transparent;
+    color: #E7332B;
+}
+.btn-red-outline {
+  border: 1px solid #E7332B;
+  background-color: transparent;
+  color: #E7332B;
+  font-size: 1.5rem;
+}
+  .btn-red-outline:hover{
+    background-color: #E7332B;
+    color: var(--light);
+  }
+  .d-block {
+    display: block !important;
+  }
+  
