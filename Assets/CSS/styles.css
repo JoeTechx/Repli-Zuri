@@ -246,10 +246,9 @@ a {
 .footer-flex-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
   padding: 20px;
 }
 
@@ -271,7 +270,7 @@ a {
   font-size: 1.5rem;
 }
 
-.address p{
+.address p {
   font-size: 14px;
   line-height: 20px;
   color: #514949;
@@ -304,6 +303,11 @@ footer hr {
 
 /* ========== MEDIA QUERIES ========== */
 
+@media screen and (max-width: 767px) {
+  .footer-flex-container {
+    align-items: center;
+  }
+}
 @media screen and (min-width: 768px) {
 
   .hero-container {
@@ -348,44 +352,56 @@ footer hr {
 }
 
 @media screen and (min-width: 1024px) {
-  .cards{
+  .cards {
     display: flex;
-    padding:0 2rem;
-width: 100%;
+    padding: 0 2rem;
+    width: 100%;
   }
 
   .card-content {
-    margin: 5rem  1.6rem;
+    margin: 5rem 1.6rem;
   }
 }
+
 @media screen and (min-width: 1200px) {
 
-  .program-content{
+  .program-content {
     width: 100%;
   }
-  .cards{
+
+  .cards {
     display: flex;
-    padding:0 2rem;
-    margin: 5rem  auto;
-width: 100%;
+    padding: 0 2rem;
+    margin: 5rem auto;
+    width: 100%;
   }
-.card-1, .card-3{
-  position: relative;
-  z-index: 1;
-}
-  .card-dot{
+
+  .card-1,
+  .card-3 {
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-dot {
     display: inline-block;
     width: 27%;
     height: 70%;
     position: absolute;
   }
 
-  .red-dot{
-     top: 103.8rem;
+  .red-dot {
+    top: 103.8rem;
   }
-  .blue-dot{
+
+  .blue-dot {
     width: 25%;
     right: 0;
     top: 102.7rem;
+  }
+
+  .footer-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
