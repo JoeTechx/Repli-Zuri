@@ -246,6 +246,7 @@ a {
 .footer-flex-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   flex-direction: column;
   margin-bottom: 56px;
