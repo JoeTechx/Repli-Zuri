@@ -33,13 +33,11 @@
 
 /* ====== universal style ======= */
 
-*,
-::after,
-::before {
+*{
   box-sizing: border-box;
-  font-family: var(--font-family);
   margin: 0;
   border: 0;
+  font-family: var(--font-family);
 }
 
 html {
@@ -63,7 +61,10 @@ body {
     text-decoration: none;
     background-color: transparent;
   }
-  
+  li{
+    list-style: none;
+  }
+
   img {
     border-style: none;
     width: 100%;
