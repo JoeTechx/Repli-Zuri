@@ -163,7 +163,7 @@ p {
     width: 35rem;
 }
 
-.home-text{
+.home-text {
     margin-bottom: 5rem;
 }
 
@@ -249,4 +249,73 @@ p {
 
 .line2 {
     width: 35% !important;
+}
+
+/* ============= ABOUT ============= */
+.about {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 49px;
+    width: 90%;
+    margin-bottom: 4rem;
+}
+
+.about-hr {
+    margin: 0px;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.about-text1 {
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding-top: 0;
+    text-align: inherit;
+    text-transform: uppercase;
+    width: 85%;
+}
+
+.abu-img {
+    display: flex;
+    justify-content: center;
+}
+
+.image2 {
+    width: 25rem;
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.about-text2 {
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    text-align: right;
+    width: 79%;
 }

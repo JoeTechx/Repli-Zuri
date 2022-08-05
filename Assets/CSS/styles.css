@@ -76,8 +76,9 @@ p {
 
 /* ======= MAIN ======= */
 .hero-container {
-  background-size: cover;
-  background-position: center center;
+  background-image: url("../Images/Vector.svg");
+  background-size:cover;
+  background-position:right right;
   background-repeat: no-repeat;
   background-color: var(--hero);
   height: auto;
