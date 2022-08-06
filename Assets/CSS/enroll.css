@@ -87,7 +87,7 @@ p {
 }
 
 .logox {
-    width: 308px !important;
+    width: 308px;
     margin: 2.9rem 2.66rem;
 }
 
@@ -115,20 +115,20 @@ p {
 }
 
 .thumbs {
-    background-color: #e7332b !important;
-    border-radius: 100px !important;
-    margin-left: -47px !important;
-    padding: 10px !important;
-    position: absolute !important;
-    width: 79px !important;
+    background-color: #e7332b;
+    border-radius: 100px;
+    margin-left: -47px;
+    padding: 10px;
+    position: absolute;
+    width: 79px;
 
 }
 
 .enroll-btn {
-    background: #e7332b !important;
-    border-radius: 71px !important;
+    background: #e7332b;
+    border-radius: 71px;
     box-shadow: none;
-    color: #fff !important;
+    color: #fff;
     padding: 13px 32px;
     text-transform: none;
 }
@@ -202,16 +202,16 @@ p {
 }
 
 .home-description {
-    color: #1b1a20 !important;
-    font-family: Graphik !important;
-    font-size: 18px !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    line-height: 130% !important;
-    margin: auto !important;
-    padding-bottom: 40px !important;
-    text-align: center !important;
-    width: 83% !important;
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 83%;
 }
 
 .home-btn {
@@ -234,21 +234,21 @@ p {
 
 .line3 {
     margin-left: 33px;
-    margin-top: -141px !important;
-    max-width: 1440px !important;
+    margin-top: -141px;
+    max-width: 1440px;
     position: absolute;
-    width: 54px !important;
+    width: 54px;
 }
 
 .wire6 {
-    width: 40% !important;
+    width: 40%;
     display: flex;
     justify-content: end;
     margin: auto;
 }
 
 .line2 {
-    width: 35% !important;
+    width: 35%;
 }
 
 /* ============= ABOUT ============= */
@@ -318,4 +318,45 @@ p {
     padding-top: 30px;
     text-align: right;
     width: 79%;
+}
+
+/* ============= WHY US ============= */
+.why-us {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 19px;
+    width: 89%;
+}
+
+.why-us-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.why-us-right {
+    flex-basis: 58.3333%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 58.3333%;
+}
+
+.small-detail{
+    color: #e7332b;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.00938em;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+.large-details{
+    color: #1b1a20;
+    margin: 0px;
+    font-family: Graphik;
+    letter-spacing: 0.00938em;
+    font-size: 3.67rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
 }
