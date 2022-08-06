@@ -615,3 +615,135 @@ p {
     padding-left: 24px;
     padding-top: 24px;
 }
+
+/* ========= STACKS COVERED ========== */
+.stacks-covered {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 69px;
+    width: 90%;
+}
+
+.stacks-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left: -24px;
+}
+
+.left-text {
+    flex-basis: 50%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.section3-details-small {
+    color: #e7332b;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.section3-details-large {
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.right-text {
+    flex-basis: 50%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.wire10 {
+    margin-top: -37px;
+    width: 13%;
+}
+
+.stacks-boxs {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left: -24px;
+}
+
+.stack-box-content {
+    flex-basis: 33.3333%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.3333%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.box6 {
+    background: #fff;
+    border-radius: 41px;
+    box-shadow: 0 11px 22px rgba(231,51,43,.1);
+    height: 340px;
+    padding: 40px;
+  }
+
+  .details6, .title6 {
+    color: #1b1a20;
+    font-family: Graphik;
+    font-style: normal;
+  }
+
+  .title6 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 20px;
+  }
+
+  .details6 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 140%;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+
+  .stacks-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 40px;
+    margin: auto;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-family: Graphik;
+}
+
+.stacks-btn a {
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: Graphik;
+}
+
+.stacks-line {
+    margin: 0px;
+    flex-shrink: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+  }
