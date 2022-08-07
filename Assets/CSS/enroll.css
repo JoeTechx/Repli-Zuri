@@ -1041,3 +1041,86 @@ p {
     margin-top: -110px;
     width: 42%;
   }
+
+  /* ========== GET STARTED =========== */
+  .root9 {
+    margin: 70px auto auto;
+    max-width: 1440px;
+    padding-top: 49px;
+    width: 90%;
+  }
+
+  .circle1 {
+    display: flex;
+    margin-bottom: 27px;
+    width: 10%;
+  }
+
+  .round {
+    left: 15%;
+    margin-top: 65px;
+    position: absolute;
+    width: 12%;
+  }
+
+  .bend1 {
+    position: absolute;
+    right: 5%;
+    width: 11%;
+  }
+
+  .section9-main, .section9-title {
+    font-family: Graphik;
+    font-style: normal;
+    line-height: 130%;
+    text-align: center;
+  }
+
+  .section9-main {
+    color: #fff;
+    display: flex;
+    margin: 0px;
+    letter-spacing: 0.00938em;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    padding-top: 70px; 
+    width: 100%;
+  }
+
+  .section9-title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 50%;
+  }
+
+  .button12 {
+    background: #fff;
+    border-radius: 71px;
+    color: #e7332b;
+    padding: 10px 32px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  }
+  .button12 a {
+    margin: 0px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #e7332b;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+  }
+
+  .bend3 {
+    width: 120%;
+  }
+
+  .bend2 {
+    left: 0;
+    width: 13%;
+  }
