@@ -904,4 +904,133 @@ p {
     left: 0;
     margin-top: 19%;
     position: absolute;
+}
+
+.structure-card {
+    flex-basis: 50%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+    padding-top: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+}
+
+.section8-main {
+    background: #1b1a20;
+    border: 1px solid #fff;
+    border-radius: 65px;
+    box-shadow: 0 31px 60px rgba(231, 51, 43, .2);
+    box-sizing: border-box;
+    height: 740px;
+    padding: 64px 48px;
+}
+
+.box8 {
+    padding-bottom: 18px;
+    letter-spacing: 0.00938em;
+}
+
+.details8,
+.title8 {
+    color: #fff;
+    font-family: Graphik;
+    font-style: normal;
+}
+
+.title8 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.details8 {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 140%;
+    width: 90%;
+}
+
+.details81 {
+    color: #fff;
+    font-family: Graphik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: .01em;
+    line-height: 140%;
+    width: 90%;
+}
+
+.section8-main i {
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-right: 1rem;
+    margin-top: 0.6rem;
+    user-select: none;
+    width: 0.999rem;
+    height: 0.999rem;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 0.6rem;
+}
+
+.circle-box {
+    display: flex;
+    float: right;
+    margin-right: -57px;
+    margin-top: -72px;
+    width: 16%;
+  }
+
+.hour {
+    display: flex;
+    float: right;
+    margin-right: -19px;
+    margin-top: -123px;
+    width: 23%;
+  }
+
+.section8-main2 {
+    background: #1b1a20;
+    border: 1px solid #fff;
+    border-radius: 65px;
+    box-shadow: 0 31px 60px rgba(231, 51, 43, .2);
+    box-sizing: border-box;
+    height: 748px;
+    padding: 64px 48px;
+}
+
+.section8-main2 i {
+    color: rgb(255, 255, 255);
+    width: 8px;
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-right: 1rem;
+    margin-top: 0.6rem;
+    user-select: none;
+    width: 0.999rem;
+    height: 0.999rem;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 0.6rem;
+}
+
+.hour2 {
+    display: flex;
+    float: right;
+    margin-right: -19px;
+    margin-top: -110px;
+    width: 42%;
   }
