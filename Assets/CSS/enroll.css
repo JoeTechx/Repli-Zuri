@@ -750,6 +750,13 @@ p {
 }
 
 /* ======== FAQ ======== */
+
+.faq {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 49px;
+    width: 89%;
+  }
 .box7 {
     margin-left: 10%;
     margin-top: 10px;
