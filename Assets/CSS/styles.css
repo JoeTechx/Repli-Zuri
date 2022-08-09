@@ -76,7 +76,7 @@ p {
 
 /* ======= MAIN ======= */
 .hero-container {
-  background-image: url("../Images/Vector.svg");
+  background-image: url("../Images/hero-bg.svg");
   background-size:cover;
   background-position:right right;
   background-repeat: no-repeat;

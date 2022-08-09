@@ -12,10 +12,13 @@
     </head>
 
     <body>
+
+
         <header class="nav-header" style="padding-top: 0px; padding-bottom: 15px;">
             <div>
                 <div class="nav">
-                    <div style="margin: auto; color: rgb(0, 0, 0); display: flex; max-width: 1440px; width: 88%; justify-content: space-between; height: 40px; align-items: center;">
+                    <div
+                        style="margin: auto; color: rgb(0, 0, 0); display: flex; max-width: 1440px; width: 88%; justify-content: space-between; height: 40px; align-items: center;">
                         <a href="/">
                             <img src="./Assets/Images/logo2.svg" alt="" href="/" class="logx">
                         </a>
@@ -35,7 +38,7 @@
                                 </a>
                             </ul>
                             <div style="display: flex; align-items: center;">
-                                <button class="button1 but nav-btn btn" tabindex="0" type="button"
+                                <button class="button1 but nav-btn btn modal-btn" tabindex="0" type="button"
                                     style="position: initial;">
                                     Hire talents
                                 </button>
@@ -45,46 +48,82 @@
                 </div>
             </div>
         </header>
-           <!-- modal -->
-        <!-- <div class="modal-overlay">
-            <div class="modal-container">
-              <h3>modal content</h3>
-              <button class="close-btn"><i class="fas fa-times"></i></button>
-            </div>
-          </div> -->
 
-          <main class="main">
+        <!-- ======== MAIN ========= -->
+        <main class="main">
             <div class="root1 rot" id="section-1">
                 <div class="home-container">
                     <div class="section-box home-text">
                         <div>
-                            <p class=" section-head">Vetted and Trusted 
+                            <p class=" section-head home-head">Vetted and Trusted
                                 <span style="color: rgb(231, 51, 43);"> talents</span>
                             </p>
                             <div class="line1">
                                 <img src="./Assets/Images/thick2.svg" alt="" width="100px">
                             </div>
-                            <p class="section-details home-details" style="padding-top: 15px;">At Zuri Team, we train, test and place talent in various industries. We have access to the best pool of skills in the tech Industry.</p>
+                            <p class="section-details home-details" style="padding-top: 15px;">At Zuri Team, we train,
+                                test and place talent in various industries. We have access to the best pool of skills
+                                in the tech Industry.</p>
                             <div style="margin-top: 30px;" class="button-box">
-                                <button class="btn button1 home-btn" tabindex="0" type="button">Hire Talent
+                                <button class="btn button1 home-btn modal-btn" tabindex="0" type="button">Hire Talent
                                 </button>
-                                <button class="btn button2 home-btn" tabindex="0" type="button">Join Talent pool
-                                    <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                <button class="btn button2 home-btn modal-btnx" tabindex="0" type="button">Join Talent
+                                    pool
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="home-img">
                         <div class="head-image">
-                        <img src="./Assets/Images/section1.png" alt="" class="image1">
-                    </div>
+                            <img src="./Assets/Images/section1.png" alt="" class="image1">
+                        </div>
                         <div class="line2">
                             <img src="./Assets/Images/line1.svg" alt="" class="liness">
                         </div>
                     </div>
                 </div>
-               </div>
-          </main>
+            </div>
+            <!-- modal -->
+            <div class="modal-overlay">
+                <div class="modal-container" style="   opacity: 1; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 3ms;">
+                    <h2 class="modal-title">Talent Recruitment</h2>
+                    <p class="modal-details section-details">We will love to discuss your business and your talent
+                        needs.<br></p>
+                    <div style="margin-top: 20px; justify-content: center; display: flex;">
+                        <a class=" button1 btn btn-center" tabindex="0" href="https://forms.gle/QFsTDVg2EhpY32Pd9">Fill
+                            this form
+                        </a>
+                    </div>
+                    <br>
+                    <span style="justify-content: center; display: flex;" variant="h6">
+                        OR
+                    </span>
+                    <div style="margin-top: 20px; justify-content: center; display: flex;">
+                        <a class="button1 btn btn-center" tabindex="0" target="_blank"
+                            href="https://calendly.com/zuri-team/consult-with-seyi?month=2022-04">Book a Consultation
+                        </a>
+                    </div>
+                    <button class="close-btn"><i class="uil uil-times"></i></button>
+                </div>
+            </div>
+            <div class="overlayx">
+  
+    <div class="modal-container2" style="   opacity: 1; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 3ms;">
+                    <h2 class="modal-title">Join Talent Pool</h2>
+                    <p class="modal-details section-details">Interested in joining our Talent Pool?<br>
+                    </p>
+                    <div style="margin-top: 20px; justify-content: center; display: flex;">
+                        <a class=" button1 btn btn-center" tabindex="0"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSenlbLaRmpPCRzby9DJ71pyChTBurIhcCFOyiZxEX1IMwxXtg/viewform">Click
+                            here to sign upgrade
+                        </a>
+                    </div>
+                    <button class="close-btnx"><i class="uil uil-times"></i></button>
+                </div>
+            </div>
+
+        </main>
+        <script src="./Assets/JS/index.js"></script>
     </body>
 
 </html>
