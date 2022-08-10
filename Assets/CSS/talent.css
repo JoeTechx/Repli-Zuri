@@ -491,6 +491,9 @@ p {
   padding-top: 24px;
 }
 
+.text-content{
+  width: 100%;
+}
 .impact-title {
   margin: 0px;
   letter-spacing: 0.00938em;
@@ -501,7 +504,7 @@ p {
   line-height: 30px;
   margin: auto;
   text-align: inherit;
-  width: 97%;
+  /* width: 97%; */
 }
 
 .impact-details {
